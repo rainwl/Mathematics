@@ -23,7 +23,7 @@ P\times Q=< P_{y}Q_{z}-P_{z}Q_{y},P_{z}Q_{x}-P_{x}Q_{z},P_{x}Q_{y}-P_{y}Q_{z}>
 ```tex
 P\times Q=\begin{vmatrix}i  & j & k\\P_{x} & P_{y}  & P_{z} \\Q_{x} & Q_{y}  & Q_{z}\end{vmatrix}
 ```
-` `
+`see also Laplace expansion`
 ```tex
 \begin{matrix}i=< 1,0,0>\\j=< 1,0,0>\\k=< 1,0,0>\end{matrix}
 ```
@@ -42,6 +42,6 @@ P\times Q=\begin{vmatrix}i  & j & k\\P_{x} & P_{y}  & P_{z} \\Q_{x} & Q_{y}  & Q
 <seealso>
     <category ref="wiki">
         <a href="https://en.wikipedia.org/wiki/Cross_product">Cross_product</a>
-        <a href="https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant">Jacobian matrix and determinant</a>
+        <a href="https://en.wikipedia.org/wiki/Laplace_expansion">Laplace expansion</a>
     </category>
 </seealso>
