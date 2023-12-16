@@ -4,9 +4,9 @@
 
 <instance-profile id="hi"
                  name="Mathematics"
-                 start-page="Default-topic.md">
+                 start-page="Mathematics.md">
 
-    <toc-element topic="Default-topic.md">
+    <toc-element topic="Mathematics.md">
         <toc-element topic="Tensor-Calculus.md"/>
         <toc-element topic="Linear-Algebra.md"/>
         <toc-element topic="Numeric-Analysis.md"/>
