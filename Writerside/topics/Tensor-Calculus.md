@@ -1,14 +1,5 @@
 # Tensor Calculus
 
-<seealso>
-    <category ref="wiki">
-        <a href="https://en.wikipedia.org/wiki/Partial_derivative">Partial_derivative</a>
-        <a href="https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant">Jacobian matrix and determinant</a>
-        <a href="https://en.wikipedia.org/wiki/Hessian_matrix">Hessian_matrix</a>
-        <a href="https://en.wikipedia.org/wiki/Chain_rule">Chain_rule</a>
-    </category>
-</seealso>
-
 ## 1-order Derivatives {collapsible="true"}
 ![](gradient.png)
 
@@ -220,3 +211,23 @@ x_{01}
 x_{01}
 \end{Vmatrix}^{2}} )
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+<seealso>
+    <category ref="wiki">
+        <a href="https://en.wikipedia.org/wiki/Partial_derivative">Partial_derivative</a>
+        <a href="https://en.wikipedia.org/wiki/Jacobian_matrix_and_determinant">Jacobian matrix and determinant</a>
+        <a href="https://en.wikipedia.org/wiki/Hessian_matrix">Hessian_matrix</a>
+        <a href="https://en.wikipedia.org/wiki/Chain_rule">Chain_rule</a>
+    </category>
+</seealso>
