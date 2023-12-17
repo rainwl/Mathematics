@@ -10,4 +10,8 @@
         <description>Created after removal of "temp" from Mathematics</description>
         <accepts>temp.html</accepts>
     </rule>
+    <rule id="52e7a61">
+        <description>Created after removal of "Empty XML Topic" from Mathematics</description>
+        <accepts>Empty-XML-Topic.html</accepts>
+    </rule>
 </rules>
