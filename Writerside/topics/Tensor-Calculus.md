@@ -10,11 +10,11 @@
 <procedure title="Partial derivative of function of a real variable" >
 <code-block lang="tex"> f(x)\in R </code-block>
 <p> </p>
-<code-block lang="tex"> df=\frac{\partial f}{\partial x} dx+\frac{\partial f}{\partial y} dy+\frac{\partial f}{\partial z} dz=\begin{bmatrix}\frac{\partial f}{\partial x}  &\frac{\partial f}{\partial y}  &\frac{\partial f}{\partial z}\end{bmatrix}\begin{bmatrix}dx \\dy \\dz\end{bmatrix}  </code-block>
+<code-block lang="tex"> df=\frac{\partial f}{\partial x} dx+\frac{\partial f}{\partial y} dy+\frac{\partial f}{\partial z} dz=\begin{bmatrix}\frac{\partial f}{\partial x}  & \frac{\partial f}{\partial y}  & \frac{\partial f}{\partial z}\end{bmatrix}\begin{bmatrix}dx \\dy \\dz\end{bmatrix}  </code-block>
 </procedure>
 
 <procedure title="Gradient" >
-<code-block lang="tex"> \frac{\partial f}{\partial \mathbf{x} } = \begin{bmatrix}\frac{\partial f}{\partial x}  &\frac{\partial f}{\partial y}  &\frac{\partial f}{\partial z}\end{bmatrix} </code-block>
+<code-block lang="tex"> \frac{\partial f}{\partial \mathbf{x} } = \begin{bmatrix}\frac{\partial f}{\partial x}  & \frac{\partial f}{\partial y}  & \frac{\partial f}{\partial z}\end{bmatrix} </code-block>
 <p> </p>
 <code-block lang="tex"> \nabla f(x)=\begin{bmatrix}\frac{\partial f}{\partial x}  \\\frac{\partial f}{\partial y} \\\frac{\partial f}{\partial z}\end{bmatrix} </code-block>
 </procedure>
@@ -22,7 +22,7 @@
 <procedure title="Jacobi Matrix" >
 <code-block lang="tex"> f(\mathbf{x} )=\begin{bmatrix}f(\mathbf{x} )\\g(\mathbf{x} ) \\h(\mathbf{x} )\end{bmatrix}\in \mathbf{R} ^{3} </code-block>
 <p>Jacobi</p>
-<code-block lang="tex"> \mathbf{J} (x)=\frac{\partial \mathbf{f} }{\partial \mathbf{x} } =\begin{bmatrix}\frac{\partial f}{\partial x} &\frac{\partial f}{\partial y}  &\frac{\partial f}{\partial z} \\\frac{\partial g}{\partial x} &\frac{\partial g}{\partial y}  &\frac{\partial g}{\partial z} \\\frac{\partial h}{\partial x} &\frac{\partial h}{\partial y}  &\frac{\partial h}{\partial z} \end{bmatrix} </code-block>
+<code-block lang="tex"> \mathbf{J} (x)=\frac{\partial \mathbf{f} }{\partial \mathbf{x} } =\begin{bmatrix}\frac{\partial f}{\partial x} & \frac{\partial f}{\partial y}  & \frac{\partial f}{\partial z} \\\frac{\partial g}{\partial x} & \frac{\partial g}{\partial y}  & \frac{\partial g}{\partial z} \\\frac{\partial h}{\partial x} & \frac{\partial h}{\partial y}  & \frac{\partial h}{\partial z} \end{bmatrix} </code-block>
 <p>Divergence</p>
 <code-block lang="tex"> \nabla \cdot f=\frac{\partial f}{\partial x} +\frac{\partial g}{\partial y} +\frac{\partial h}{\partial z} </code-block>
 <p>Curl</p>
@@ -69,7 +69,7 @@
 <code-block lang="tex"> \frac{\partial \begin{Vmatrix}x\end{Vmatrix}}{\partial x} =\frac{\partial (x^{T}x)^{1/2}}{\partial x} =\frac{1}{2} (x^{T}x)^{-1/2}\frac{\partial (x^{T}x)}{\partial x} = \frac{1}{2\begin{Vmatrix}x\end{Vmatrix}} 2x^{T}=\frac{x^{T}}{\begin{Vmatrix}x\end{Vmatrix}}
  </code-block>
 <p> </p>
-<code-block lang="tex"> \frac{\partial (x^{T}x)}{\partial x} =\frac{\partial (x^{2}+y^{2}+z^{2})}{\partial x} =\begin{bmatrix}2x &2y &2z\end{bmatrix} =2x^{T}
+<code-block lang="tex"> \frac{\partial (x^{T}x)}{\partial x} =\frac{\partial (x^{2}+y^{2}+z^{2})}{\partial x} =\begin{bmatrix}2x & 2y & 2z\end{bmatrix} =2x^{T}
  </code-block>
 </procedure>
 
@@ -126,8 +126,8 @@ x_{01}
  \frac{\partial ^{2}E}{\partial x^{2}_{0}}  & \frac{\partial ^{2}E}{\partial x_{0}\partial x_{1}} \\
  \frac{\partial ^{2}E}{\partial x_{0}\partial x_{1}} & \frac{\partial ^{2}E}{\partial x^{2}_{1}}
 \end{bmatrix}=\begin{bmatrix}
- H_{e} &-H_{e} \\
- -H_{e} &H_{e}
+ H_{e} & -H_{e} \\
+ -H_{e} & H_{e}
 \end{bmatrix} </code-block>
 <p> </p>
 <code-block lang="tex"> H_{e}=k\frac{x_{01}x^{T}_{01}}{\begin{Vmatrix}
