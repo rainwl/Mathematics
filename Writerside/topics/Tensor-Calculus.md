@@ -13,13 +13,11 @@
 <code-block lang="tex"> df=\frac{\partial f}{\partial x} dx+\frac{\partial f}{\partial y} dy+\frac{\partial f}{\partial z} dz=\begin{bmatrix}\frac{\partial f}{\partial x}  &\frac{\partial f}{\partial y}  &\frac{\partial f}{\partial z}\end{bmatrix}\begin{bmatrix}dx \\dy \\dz\end{bmatrix}  </code-block>
 </procedure>
 
-
 <procedure title="Gradient" >
 <code-block lang="tex"> \frac{\partial f}{\partial \mathbf{x} } = \begin{bmatrix}\frac{\partial f}{\partial x}  &\frac{\partial f}{\partial y}  &\frac{\partial f}{\partial z}\end{bmatrix} </code-block>
 <p> </p>
 <code-block lang="tex"> \nabla f(x)=\begin{bmatrix}\frac{\partial f}{\partial x}  \\\frac{\partial f}{\partial y} \\\frac{\partial f}{\partial z}\end{bmatrix} </code-block>
 </procedure>
-
 
 <procedure title="Jacobi Matrix" >
 <code-block lang="tex"> f(\mathbf{x} )=\begin{bmatrix}f(\mathbf{x} )\\g(\mathbf{x} ) \\h(\mathbf{x} )\end{bmatrix}\in \mathbf{R} ^{3} </code-block>
