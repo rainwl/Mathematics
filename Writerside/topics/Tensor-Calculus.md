@@ -1,22 +1,22 @@
 # Tensor Calculus
 
-## 1-order Derivatives {collapsible="true"}
+## 1-order Derivatives
 
-![](gradient.png) {width="400"}
+![x](gradient.png) {width="400"}
 
 > Gradient is the steepest direction for increasing f. It's perpendicular to the iso surface.
 > {style="note"}
 
-<procedure title="Partial derivative of function of a real variable" >
-<code-block lang="tex"> f(x)\in R </code-block>
-<p> </p>
-<code-block lang="tex"> df=\frac{\partial f}{\partial x} dx+\frac{\partial f}{\partial y} dy+\frac{\partial f}{\partial z} dz=\begin{bmatrix}\frac{\partial f}{\partial x}  & \frac{\partial f}{\partial y}  & \frac{\partial f}{\partial z}\end{bmatrix}\begin{bmatrix}dx \\dy \\dz\end{bmatrix}  </code-block>
+<procedure title="Partial derivative of function of a real variable" id="partial">
+    <code-block lang="tex"> f(x)\in R </code-block>
+    <p> </p>
+    <code-block lang="tex"> df=\frac{\partial f}{\partial x} dx+\frac{\partial f}{\partial y} dy+\frac{\partial f}{\partial z} dz=\begin{bmatrix}\frac{\partial f}{\partial x}  & \frac{\partial f}{\partial y}  & \frac{\partial f}{\partial z}\end{bmatrix}\begin{bmatrix}dx \\dy \\dz\end{bmatrix}  </code-block>
 </procedure>
 
 <procedure title="Gradient" >
-<code-block lang="tex"> \frac{\partial f}{\partial \mathbf{x} } = \begin{bmatrix}\frac{\partial f}{\partial x}  & \frac{\partial f}{\partial y}  & \frac{\partial f}{\partial z}\end{bmatrix} </code-block>
-<p> </p>
-<code-block lang="tex"> \nabla f(x)=\begin{bmatrix}\frac{\partial f}{\partial x}  \\\frac{\partial f}{\partial y} \\\frac{\partial f}{\partial z}\end{bmatrix} </code-block>
+    <code-block lang="tex"> \frac{\partial f}{\partial \mathbf{x} } = \begin{bmatrix}\frac{\partial f}{\partial x}  & \frac{\partial f}{\partial y}  & \frac{\partial f}{\partial z}\end{bmatrix} </code-block>
+    <p> </p>
+    <code-block lang="tex"> \nabla f(x)=\begin{bmatrix}\frac{\partial f}{\partial x}  \\\frac{\partial f}{\partial y} \\\frac{\partial f}{\partial z}\end{bmatrix} </code-block>
 </procedure>
 
 <procedure title="Jacobi Matrix" >

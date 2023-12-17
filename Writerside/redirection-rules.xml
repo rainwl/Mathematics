@@ -14,4 +14,8 @@
         <description>Created after removal of "Empty XML Topic" from Mathematics</description>
         <accepts>Empty-XML-Topic.html</accepts>
     </rule>
+    <rule id="2f45e11f">
+        <description>Created after removal of "test" from Mathematics</description>
+        <accepts>test.html</accepts>
+    </rule>
 </rules>

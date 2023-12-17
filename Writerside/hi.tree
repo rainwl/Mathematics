@@ -6,7 +6,6 @@
                  name="Mathematics"
                  start-page="Mathematics.md">
 
-    <toc-element topic="test.topic"/>
     <toc-element topic="Mathematics.md">
         <toc-element topic="Tensor-Calculus.md"/>
         <toc-element topic="Linear-Algebra.md"/>
