@@ -13,4 +13,8 @@
         <toc-element topic="Physics.md"/>
         <toc-element topic="Rendering.md"/>
     </toc-element>
+    <toc-element topic="Appendix.md">
+        <toc-element topic="Euclidean-space.md"/>
+        <toc-element topic="Manifold.md"/>
+    </toc-element>
 </instance-profile>
